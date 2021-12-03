@@ -1,0 +1,30 @@
+.card-grey {
+  background-color: grey;
+  padding: 23px;
+  margin:4px 0px;
+  border-radius: 6px;
+  text-align: center;
+  width: 195px;
+  height: 294px;
+  align-items: center;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
